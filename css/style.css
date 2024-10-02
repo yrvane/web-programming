@@ -1,0 +1,177 @@
+
+body{
+    color: blue;
+    background-image: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+}
+
+div.container{
+    max-width: 950;
+    margin-top: 5;
+    margin-bottom: 5;
+    background-color: blanchedalmond;
+}
+
+main.content{
+    font-size: 1,4em;
+    padding:0 0 0 0;
+}
+
+header{
+    background-color: aquamarine;
+    display: block;
+}
+
+footer{
+    background-color: aquamarine;
+    font-size: 80%;
+    text-align: center;
+    padding: 1px 0;
+}
+
+nav{
+    background-color: bisque;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul{
+   margin:0;
+   padding: 5;
+   display: flex;
+}
+
+nav li{
+    margin-right: 20;
+    margin: 40px;
+    text-transform: uppercase;
+}
+nav a{
+    text-decoration: none;
+}
+
+nav a:hover{
+    color:blueviolet;
+}
+
+nav a:visited{
+    color:chartreuse;
+}
+
+nav a:active{
+    color:black;
+}
+
+nav a:focus{
+    color:darkcyan;
+}
+
+h1{
+    margin: 10px;
+    text-transform: uppercase;
+    color:aquamarine;
+    
+}
+
+h2{
+    margin: 10px;
+    text-transform: uppercase;
+    color:aquamarine;
+    
+}
+
+h3{
+    margin: 10px;
+    text-transform: uppercase;
+    color:aquamarine;
+    
+}
+
+
+.img-centre{
+    display:block;
+    margin: 5px auto;
+    padding:2px;
+}
+
+iframe{
+    display: block;
+    margin: 10 auto 10 auto;
+}
+
+
+video{
+    display: block;
+    margin:10px auto;
+}
+
+table{
+    width:800px;
+    margin: 10px auto;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+table th {
+    text-transform: uppercase; 
+    background-color: #333; 
+    color: #fff;
+    padding: 10px; 
+  }
+
+table tfoot td {
+    text-transform: uppercase; 
+    background-color: #f0f0f0; 
+    color: #000; 
+    padding: 10px; 
+}
+
+table th, table td {
+    border: 1px solid #ccc;
+    padding 2px 5px;
+    background-color:brown;
+}
+
+dt{
+    font-weight: bold;
+}
+
+
+
+fieldset{
+    border-color: cadetblue;
+    background-color: cornflowerblue;
+    margin: 5px auto 5px auto;
+    display: block;
+    max-width:500px ;
+}
+
+legend{
+    font-style: italic;
+    color: forestgreen;
+    background-color: antiquewhite;
+    border: 2px solid black;
+    border-radius:10px;
+}
+
+input{
+    border-style: groove;
+    padding: 5;
+    background-color: cadetblue;
+    color:darkmagenta;
+}
+input[type="submit"] {
+    border: 2px solid #4CAF50; 
+    padding: 5px; 
+    background-color: #4CAF50; 
+    color: white; 
+}
+
+  
+input[type="submit"]:hover {
+    background-color: #45a049; 
+    color: #ffffff; 
+    cursor: pointer; 
+}
+
